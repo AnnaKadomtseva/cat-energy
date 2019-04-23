@@ -1,0 +1,21 @@
+// Общие блоки
+@import "blocks/common/page-header";
+@import "blocks/common/logo";
+@import "blocks/common/site-list";
+@import "blocks/common/btn";
+
+// Подключает шрифты
+@import "global/fonts";
+
+// Основные переменные
+@import "global/vars";
+
+// Базовые параметры страницы
+@import "global/scaffolding";
+
+// Главная страница
+@import "blocks/index/header-info";
+
+// Страница каталога
+
+// Страница формы

@@ -1,0 +1,30 @@
+.header-info {
+  background-image: url("../img/raster/index-background-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-size: 360px 300px;
+  z-index: -1; }
+
+.header-info__title {
+  color: #ffffff;
+  font-weight: 400;
+  padding: 26px 20px;
+  text-align: center;
+  font-size: 36px;
+  line-height: 36px; }
+
+.header-info__tagline {
+  margin: 0;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  margin-bottom: 25px; }
+
+.header-info__img {
+  display: block;
+  margin: 0 auto; }
+
+.header-info__button {
+  margin-left: 20px;
+  margin-right: 20px; }

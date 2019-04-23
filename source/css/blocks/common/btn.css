@@ -1,0 +1,9 @@
+.btn {
+  display: block;
+  min-height: 40px;
+  min-width: 260px;
+  text-align: center;
+  padding: 10px 20px;
+  color: #ffffff;
+  background-color: #68b738;
+  box-sizing: border-box; }

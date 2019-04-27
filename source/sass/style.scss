@@ -1,8 +1,13 @@
 // Общие блоки
 @import "blocks/common/page-header";
-@import "blocks/common/logo";
+@import "blocks/common/logo-main";
 @import "blocks/common/site-list";
 @import "blocks/common/btn";
+@import "blocks/common/page-footer";
+@import "blocks/common/contacts";
+@import "blocks/common/footer-bottom";
+@import "blocks/common/social-button";
+@import "blocks/common/copyright";
 
 // Подключает шрифты
 @import "global/fonts";
@@ -15,6 +20,12 @@
 
 // Главная страница
 @import "blocks/index/header-info";
+@import "blocks/index/program-opportunity";
+@import "blocks/index/losing-weight";
+@import "blocks/index/weight-gain";
+@import "blocks/index/working";
+@import "blocks/index/advantages-list";
+@import "blocks/index/example";
 
 // Страница каталога
 

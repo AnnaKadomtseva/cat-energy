@@ -1,0 +1,25 @@
+@import "../../global/vars";
+
+.losing-weight {
+  padding: 25px 35px 25px 20px;
+  background-color: $grey;
+}
+
+.losing-weight__title {
+  font-size: 24px;
+  line-height: 37px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.losing-weight__description {
+  margin: 40px 0;
+  font-family: $arial;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.losing-weight__catalog {
+
+}

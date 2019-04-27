@@ -1,0 +1,16 @@
+.losing-weight {
+  padding: 25px 35px 25px 20px;
+  background-color: #f2f2f2; }
+
+.losing-weight__title {
+  font-size: 24px;
+  line-height: 37px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center; }
+
+.losing-weight__description {
+  margin: 40px 0;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px; }

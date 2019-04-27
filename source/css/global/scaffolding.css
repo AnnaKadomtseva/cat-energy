@@ -1,14 +1,22 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+  *:before *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+
 html,
 body {
   font-family: "Oswald", sans-serif;
   font-weight: 400;
   font-size: 16px;
+  line-height: 16px;
   font-style: normal;
   min-width: 320px;
   margin: 0;
   padding: 0;
-  background-color: #ffffff;
-  color: #000000; }
+  background-color: #fff;
+  color: #000; }
 
 img {
   max-width: 100%;
@@ -17,7 +25,7 @@ img {
 a {
   text-decoration: none;
   text-transform: uppercase;
-  color: #000000; }
+  color: #000; }
 
 table {
   border-collapse: collapse;

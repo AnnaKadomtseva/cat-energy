@@ -1,7 +1,6 @@
 @import "../../global/vars";
 .advantages-list {
   list-style: none;
-  margin-left: 80px;
   padding: 0;
 }
 
@@ -11,5 +10,55 @@
   font-size: 14px;
   line-height: 18px;
   margin-bottom: 20px;
-  color: #444; 
+  color: #444;
+  padding-left: 80px;
+  position: relative;
+}
+
+.advantages-list__item--useful::before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/raster/advantage-leaf@1x.png);
+  background-repeat: no-repeat;
+  background-color: $green;
+}
+
+.advantages-list__item--drink::before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/raster/advantage-powder@1x.png);
+  background-repeat: no-repeat;
+  background-color: $green;
+}
+
+.advantages-list__item--food::before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/raster/advantage-dining@1x.png);
+  background-repeat: no-repeat;
+  background-color: $green;
+}
+
+.advantages-list__item--time::before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  background-image: url(../img/raster/advantage-clock@1x.png);
+  background-repeat: no-repeat;
+  background-color: $green;
 }

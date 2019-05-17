@@ -1,15 +1,16 @@
 @import "../../global/vars";
 .main-nav {
-  position: relative;
-  width: 320px;
-  min-height: 200px;
   margin: 0 auto;
+}
+
+.main-nav__list {
+  display: none;
 }
 
 .main-nav__toggle {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 10px;
+  right: 10px;
   z-index: 2;
   display: block;
   width: 50px;
@@ -19,7 +20,7 @@
   background-color: $white;
 }
 
-.main-nav--closed .main-nav__toggle::before {
+.main-nav__toggle::before {
   content: "";
   position: absolute;
   top: 12px;
@@ -28,6 +29,10 @@
   height: 2px;
   background-color: #000;
   box-shadow: 0 8px 0 0 #000, 0 16px 0 0 #000;
+}
+
+.main-nav--opened .main-nav__list {
+  display: block;
 }
 
 .main-nav--opened .main-nav__toggle::before {
@@ -39,6 +44,7 @@
   height: 2px;
   background-color: #000;
   transform: rotate(45deg);
+  box-shadow: none;
 }
 
 .main-nav--opened .main-nav__toggle::after {
@@ -50,12 +56,4 @@
   height: 2px;
   background-color: #000;
   transform: rotate(-45deg);
-}
-
-.main-nav--nojs .main-nav__toggle {
-  display: none;
-}
-
-.main-nav--nojs .site-list__item {
-  display: block;
 }

@@ -1,5 +1,5 @@
 .copyright__link {
-  color: #444;
+  color: #666;
   font-family: "Arial", sans-serif;
   text-transform: none;
   display: -webkit-box;
@@ -11,8 +11,18 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center; }
+  .copyright__link:hover {
+    color: #68b738; }
+  .copyright__link:active {
+    color: #68b738;
+    opacity: 0.3; }
 
 .copyright__icon {
   width: 27px;
   height: 34px;
   fill: #666; }
+  .copyright__icon:hover {
+    fill: #68b738; }
+  .copyright__icon:active {
+    fill: #68b738;
+    opacity: 0.3; }

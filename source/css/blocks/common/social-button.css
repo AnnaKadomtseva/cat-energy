@@ -11,3 +11,11 @@
   list-style: none;
   margin: 0;
   padding: 0; }
+
+.social-button__link {
+  fill: #666; }
+  .social-button__link:hover {
+    fill: #68b738; }
+  .social-button__link:active {
+    fill: #68b738;
+    opacity: 0.3; }

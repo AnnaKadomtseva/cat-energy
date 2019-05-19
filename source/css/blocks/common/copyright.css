@@ -1,5 +1,5 @@
 .copyright__link {
-  color: #666;
+  color: #444;
   font-family: "Arial", sans-serif;
   text-transform: none;
   display: -webkit-box;
@@ -20,7 +20,7 @@
 .copyright__icon {
   width: 27px;
   height: 34px;
-  fill: #666; }
+  fill: #444; }
   .copyright__icon:hover {
     fill: #68b738; }
   .copyright__icon:active {

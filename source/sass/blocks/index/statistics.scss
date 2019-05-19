@@ -1,0 +1,13 @@
+@import "../../global/vars";
+.statistics__item {
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.statistics__description {
+  font-family: $arial;
+  font-size: 12px;
+  line-height: 12px;
+  color: $darkgray;
+}

@@ -47,6 +47,8 @@
 
 .program-card__catalog-link {
   position: relative; }
+  .program-card__catalog-link:active {
+    opacity: 0.3; }
 
 .program-card__catalog-link--next::after {
   content: "";
@@ -57,3 +59,5 @@
   right: -35px;
   background-image: url(../img/vector/right-arrow-long.svg);
   background-repeat: no-repeat; }
+  .program-card__catalog-link--next::after:hover {
+    width: 30px; }

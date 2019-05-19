@@ -1,0 +1,9 @@
+.range-controls {
+  display: flex;
+}
+
+.range-controls__before,
+.range-controls__after {
+  line-height: 20px;
+  text-transform: uppercase;
+}

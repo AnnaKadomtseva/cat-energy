@@ -16,4 +16,17 @@
   font-size: 20px;
   line-height: 20px;
   border-bottom: 1px solid #e6e6e6;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:focus {
+    opacity: 0.3;
+  }
+
+  &:active {
+    opacity: 1;
+    text-decoration: underline;
+  }
 }

@@ -16,7 +16,7 @@
     -webkit-box-shadow: 0 8px 0 0 #000, 0 16px 0 0 #000;
     box-shadow: 0 8px 0 0 #000, 0 16px 0 0 #000; }
 
-.toggle--open::before {
+.toggle--open:before {
   content: "";
   position: absolute;
   top: 17px;
@@ -29,7 +29,7 @@
   -webkit-box-shadow: none;
   box-shadow: none; }
 
-.toggle--open::after {
+.toggle--open:after {
   content: "";
   position: absolute;
   top: 17px;

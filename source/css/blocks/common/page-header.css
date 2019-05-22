@@ -22,9 +22,6 @@
 .page-header__toggle {
   position: relative; }
 
-.page-header__main-nav {
-  display: none; }
-
 .page-header__button {
   margin-bottom: 25px;
   margin-left: 20px;

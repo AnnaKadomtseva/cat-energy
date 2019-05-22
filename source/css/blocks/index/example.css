@@ -18,4 +18,8 @@
 .example__expenses {
   font-size: 14px;
   line-height: 20px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  text-align: center; }
+
+.example__list {
+  margin-bottom: 40px; }

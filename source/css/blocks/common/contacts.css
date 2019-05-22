@@ -1,0 +1,18 @@
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.contacts__invitation {
+  line-height: 20px;
+  text-transform: uppercase; }
+
+.contacts__address {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #444; }

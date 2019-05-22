@@ -1,0 +1,36 @@
+// Общие блоки
+@import "blocks/common/page-header";
+@import "blocks/common/logo-main";
+@import "blocks/common/logo";
+@import "blocks/common/site-list";
+@import "blocks/common/btn";
+@import "blocks/common/page-footer";
+@import "blocks/common/contacts";
+@import "blocks/common/footer-bottom";
+@import "blocks/common/social-button";
+@import "blocks/common/copyright";
+@import "blocks/common/main-nav";
+@import "blocks/common/toggle";
+
+// Подключает шрифты
+@import "global/fonts";
+
+// Основные переменные
+@import "global/vars";
+
+// Базовые параметры страницы
+@import "global/scaffolding";
+
+// Главная страница
+@import "blocks/index/header-info";
+@import "blocks/index/program-opportunity";
+@import "blocks/index/program-card";
+@import "blocks/index/working";
+@import "blocks/index/advantages-list";
+@import "blocks/index/example";
+@import "blocks/index/range-controls";
+@import "blocks/index/statistics";
+
+// Страница каталога
+
+// Страница формы

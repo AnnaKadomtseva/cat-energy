@@ -1,0 +1,26 @@
+@import "../../global/vars";
+
+.social-button {
+  padding: 0 70px 55px 70px;
+}
+
+.social-button__list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-button__link {
+  fill: $darkgray;
+
+  &:hover {
+    fill: $green;
+  }
+
+  &:active {
+    fill: $green;
+    opacity: 0.3;
+  }
+}

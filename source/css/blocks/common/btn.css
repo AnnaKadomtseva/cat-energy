@@ -1,0 +1,12 @@
+.btn {
+  display: block;
+  min-height: 40px;
+  min-width: 260px;
+  text-align: center;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #68b738; }
+  .btn:hover {
+    background-color: #5eaa2f; }
+  .btn:active {
+    color: rgba(255, 255, 255, 0.3); }

@@ -1,0 +1,53 @@
+@import "../../global/vars";
+.header-info {
+  position: relative;
+  &:before {
+    content: "";
+    background-color: #63a73a;
+    background-image: url("../img/raster/index-background-mobile@1x.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    background-position: center top;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+.header-info__title {
+  color: $white;
+  font-weight: 400;
+  padding: 26px 20px;
+  text-align: center;
+  font-size: 36px;
+  line-height: 36px;
+  position: relative;
+  z-index: 1;
+}
+
+.header-info__tagline {
+  margin: 0;
+  color: $white;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  margin-bottom: 25px;
+  position: relative;
+  z-index: 1;
+}
+
+.header-info__img {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.header-info__button {
+  margin-left: 20px;
+  margin-right: 20px;
+  position: relative;
+  z-index: 1;
+}

@@ -1,0 +1,33 @@
+@import "../../global/vars";
+.copyright__link {
+  color: $darkgray;
+  font-family: $arial;
+  text-transform: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &:hover {
+    color: $green;
+  }
+
+  &:active {
+    color: $green;
+    opacity: 0.3;
+  }
+}
+
+.copyright__icon {
+  width: 27px;
+  height: 34px;
+  fill: $darkgray;
+
+  &:hover {
+    fill: $green;
+  }
+
+  &:active {
+    fill: $green;
+    opacity: 0.3;
+  }
+}

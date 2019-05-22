@@ -1,0 +1,35 @@
+.statistics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.statistics__item {
+  position: relative;
+  border: 1px solid #cdcdcd;
+  padding: 20px 15px 25px;
+  border-radius: 3px;
+  width: 125px; }
+
+.statistics__title {
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0; }
+
+.statistics__description {
+  font-family: "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  color: #444;
+  text-transform: none;
+  display: block;
+  width: 85px;
+  padding: 0 5px;
+  background-color: #f2f2f2;
+  position: absolute;
+  bottom: -10px;
+  left: 25px; }

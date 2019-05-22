@@ -1,0 +1,7 @@
+.main-nav {
+  margin: 0 auto;
+  width: 100%;
+  display: none; }
+
+.main-nav--opened {
+  display: block; }

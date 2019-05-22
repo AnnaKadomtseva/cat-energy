@@ -1,0 +1,28 @@
+.page-header {
+  background-color: #fff; }
+
+.page-header__wrapper-up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative; }
+
+.page-header__toggle {
+  position: relative; }
+
+.page-header__button {
+  margin-bottom: 25px;
+  margin-left: 20px;
+  margin-right: 20px; }

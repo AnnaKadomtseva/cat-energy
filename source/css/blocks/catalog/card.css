@@ -1,0 +1,53 @@
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.card__title {
+  line-height: 20px;
+  text-transform: uppercase;
+  width: 84px;
+  margin-bottom: 15px; }
+
+.card__header {
+  width: 140px; }
+
+.card__content {
+  width: 140px;
+  min-height: 144px;
+  margin-top: 25px; }
+
+.card__button {
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  width: 280px;
+  border: none; }
+
+.card__specification {
+  font-family: "Arial", sans-serif;
+  font-size: 12px;
+  color: #444; }
+
+.card--gray {
+  display: block; }
+
+.card__title--gray {
+  margin: 0;
+  width: 100%; }
+
+.btn--default {
+  margin-bottom: 35px;
+  color: #444;
+  background-color: #f2f2f2; }
+  .btn--default:hover {
+    background-color: #f2f2f2; }
+  .btn--default:active {
+    background-color: #f2f2f2;
+    color: #444; }

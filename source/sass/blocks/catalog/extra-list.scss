@@ -1,0 +1,50 @@
+@import "../../global/vars";
+
+.extra-list__wrapper {
+  width: 320px;
+  padding: 0 20px;
+}
+
+.extra-list__title {
+  font-size: 24px;
+  line-height: 24px;
+  padding: 20px 0 30px 0;
+}
+
+.extra-list__name {
+  width: 100%;
+  font-family: $oswald;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  padding: 15px 0;
+  text-align: left;
+  color: $black;
+  border-top: 1px solid #cdcdcd;
+}
+
+.extra-list__value {
+  width: 140px;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.extra-list__field {
+  width: 140px;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: right;
+}
+
+.extra-list__info {
+  margin-bottom: 15px;
+}
+
+.extra-list__button {
+  width: 280px;
+  font-family: $oswald;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 15px;
+  border: none;
+}

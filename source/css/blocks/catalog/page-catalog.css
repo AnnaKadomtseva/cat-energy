@@ -1,0 +1,12 @@
+.page-catalog__title {
+  font-size: 36px;
+  line-height: 60px; }
+
+.page-catalog__wrapper {
+  padding: 0 20px;
+  width: 320px; }
+
+.page-catalog__list {
+  list-style: none;
+  padding: 0;
+  margin: 0; }

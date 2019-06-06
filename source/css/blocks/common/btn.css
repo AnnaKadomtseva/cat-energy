@@ -5,7 +5,8 @@
   text-align: center;
   padding: 10px 20px;
   color: #fff;
-  background-color: #68b738; }
+  background-color: #68b738;
+  text-transform: uppercase; }
   .btn:hover {
     background-color: #5eaa2f; }
   .btn:active {

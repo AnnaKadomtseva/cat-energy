@@ -3,10 +3,11 @@
 .action-present {
   position: relative;
   margin-bottom: 40px;
+  height: 290px;
 
   &:before {
     content: "";
-    background-color: #63a73a;
+    background-color: $white;
     background-image: url("../img/raster/gift-photo-mobile@1x.jpg");
     background-repeat: no-repeat;
     width: 100%;
@@ -16,6 +17,18 @@
     top: 0;
     left: 0;
   }
+
+  &:after {
+    content: "";
+    background-image: url("../img/vector/icon-gift.svg");
+    background-repeat: no-repeat;
+    width: 55px;
+    height: 60px;
+    background-position: center top;
+    position: absolute;
+    top: 65px;
+    left: 45%;
+  }
 }
 
 .action-present__description {
@@ -24,7 +37,8 @@
   color: $white;
   position: relative;
   z-index: 1;
-  margin: 0;
+  margin: auto;
   text-align: center;
-  padding-top: 200px;
+  padding-top: 180px;
+  width: 165px;
 }

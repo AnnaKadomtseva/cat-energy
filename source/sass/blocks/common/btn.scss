@@ -7,6 +7,7 @@
   padding: 10px 20px;
   color: $white;
   background-color: $green;
+  text-transform: uppercase;
 
   &:hover {
     background-color: $darkgreen;
@@ -14,5 +15,20 @@
 
   &:active {
     color: rgba(255, 255, 255, 0.3);
+  }
+}
+
+.btn--default {
+  margin-bottom: 35px;
+  color: $darkgray;
+  background-color: $grey;
+
+  &:hover {
+    background-color: $grey;
+  }
+
+  &:active {
+    background-color: $grey;
+    color: $darkgray;
   }
 }

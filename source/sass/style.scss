@@ -11,7 +11,6 @@
 @import "blocks/common/copyright";
 @import "blocks/common/main-nav";
 @import "blocks/common/toggle";
-@import "blocks/common/map";
 
 // Подключает шрифты
 @import "global/fonts";
@@ -33,10 +32,5 @@
 @import "blocks/index/statistics";
 
 // Страница каталога
-@import "blocks/catalog/page-catalog";
-@import "blocks/catalog/card";
-@import "blocks/catalog/table";
-@import "blocks/catalog/extra-list";
-@import "blocks/catalog/action-present";
 
 // Страница формы

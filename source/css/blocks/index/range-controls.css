@@ -1,20 +1,9 @@
 .range-controls {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  padding: 45px 45px 40px; }
+  display: flex; }
 
 .range-controls__before,
 .range-controls__after {
   line-height: 20px;
   text-transform: uppercase; }
-
-.range-controls__scale {
-  width: 85px;
-  border: 1px solid #cdcdcd;
-  margin: 0 10px;
-  border-radius: 20%;
-  background-color: #fff; }

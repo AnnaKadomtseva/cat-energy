@@ -13,8 +13,15 @@
   text-transform: uppercase; }
 
 .range-controls__scale {
-  width: 85px;
+  width: 100%;
   border: 1px solid #cdcdcd;
-  margin: 0 10px;
+  margin: 0 20px;
   border-radius: 20%;
   background-color: #fff; }
+
+.range-controls__bar {
+  border-radius: 20%;
+  width: 45%;
+  height: 10px;
+  background-color: #68b738;
+  margin: 4px; }

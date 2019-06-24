@@ -5,8 +5,19 @@
   text-align: center;
   padding: 10px 20px;
   color: #fff;
-  background-color: #68b738; }
+  background-color: #68b738;
+  text-transform: uppercase; }
   .btn:hover {
     background-color: #5eaa2f; }
   .btn:active {
     color: rgba(255, 255, 255, 0.3); }
+
+.btn--default {
+  margin-bottom: 35px;
+  color: #444;
+  background-color: #f2f2f2; }
+  .btn--default:hover {
+    background-color: #f2f2f2; }
+  .btn--default:active {
+    background-color: #f2f2f2;
+    color: #444; }

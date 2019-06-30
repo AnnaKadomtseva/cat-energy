@@ -8,3 +8,9 @@
 .main-nav--opened {
   display: block;
 }
+
+@media (min-width: $tablet) {
+  .main-nav {
+    display: inline-block;
+  }
+}

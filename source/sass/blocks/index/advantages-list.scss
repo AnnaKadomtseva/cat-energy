@@ -42,3 +42,20 @@
 .advantages-list__item--time::before {
   background-image: url(../img/raster/advantage-clock@1x.png);
 }
+
+@media (min-width: $tablet) {
+  .advantages-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .advantages-list__item {
+    font-size: 16px;
+    line-height: 24px;
+    width: 250px;
+    margin-right: 120px;
+    padding-top: 90px;
+    padding-left: 0;
+    margin-bottom: 135px;
+  }
+}

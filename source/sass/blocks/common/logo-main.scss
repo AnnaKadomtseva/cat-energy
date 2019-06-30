@@ -1,5 +1,4 @@
-.logo-main {
-}
+@import "../../global/vars";
 
 .logo-main__link {
   margin-right: 15px;
@@ -18,5 +17,21 @@
 
   &:active {
     opacity: 0.6;
+  }
+}
+
+.logo-main__image {
+  width: 33px;
+  height: 38px;
+}
+
+@media (min-width: $tablet) {
+  .logo-main__image {
+    width: 173px;
+    height: 59px;
+  }
+
+  .logo-title {
+    display: none;
   }
 }

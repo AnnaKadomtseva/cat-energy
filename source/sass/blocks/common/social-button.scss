@@ -24,3 +24,9 @@
     opacity: 0.3;
   }
 }
+
+@media (min-width: $tablet) {
+  .social-button__list {
+    width: 135px;
+  }
+}

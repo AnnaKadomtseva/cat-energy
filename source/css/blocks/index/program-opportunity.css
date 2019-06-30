@@ -3,3 +3,7 @@
 
 .program-opportunity__item {
   margin-bottom: 20px; }
+
+@media (min-width: 768px) {
+  .program-opportunity {
+    padding-top: 250px; } }

@@ -5,3 +5,7 @@
 
 .main-nav--opened {
   display: block; }
+
+@media (min-width: 768px) {
+  .main-nav {
+    display: inline-block; } }

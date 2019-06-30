@@ -75,3 +75,26 @@
     width: 30px;
   }
 }
+
+@media (min-width: $tablet) {
+  .program-card__title {
+    font-size: 36px;
+    text-align: left;
+    padding-left: 50px;
+    display: inline-block;
+  }
+
+  .program-card__description {
+    margin: 40px 0;
+    font-size: 16px;
+    line-height: 24px;
+    width: 395px;
+    padding-left: 50px;
+  }
+
+  .program-card__catalog-link {
+    font-size: 20px;
+    line-height: 20px;
+    padding-left: 50px;
+  }
+}

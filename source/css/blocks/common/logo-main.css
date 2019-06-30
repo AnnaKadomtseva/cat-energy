@@ -9,3 +9,14 @@
   opacity: 0.8; }
   .logo-title__link:hover:active {
     opacity: 0.6; }
+
+.logo-main__image {
+  width: 33px;
+  height: 38px; }
+
+@media (min-width: 768px) {
+  .logo-main__image {
+    width: 173px;
+    height: 59px; }
+  .logo-title {
+    display: none; } }

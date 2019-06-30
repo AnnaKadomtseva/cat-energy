@@ -39,3 +39,18 @@
   display: block;
   margin: auto;
 }
+
+@media (min-width: $tablet) {
+  .example__wrapper {
+    background-color: $white;
+  }
+
+  .example__title {
+    font-size: 60px;
+  }
+
+  .example__description {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

@@ -26,3 +26,7 @@
   .copyright__icon:active {
     fill: #68b738;
     opacity: 0.3; }
+
+@media (min-width: 768px) {
+  .copyright {
+    width: 162px; } }

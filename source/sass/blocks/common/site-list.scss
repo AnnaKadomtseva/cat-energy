@@ -42,6 +42,11 @@
     font-weight: 400;
     border-bottom: none;
     padding: 20px 0;
+
+    &:active {
+      opacity: 1;
+      text-decoration: none;
+    }
   }
 
   .site-list__item--active {

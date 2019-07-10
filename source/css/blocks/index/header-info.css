@@ -11,6 +11,9 @@
     position: absolute;
     top: 0;
     left: 0; }
+    @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+      .header-info:before {
+        background-image: url("../img/raster/index-background-mobile@2x.jpg"); } }
 
 .header-info__title {
   color: #fff;

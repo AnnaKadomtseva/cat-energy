@@ -25,3 +25,30 @@
   height: 10px;
   background-color: #68b738;
   margin: 4px; }
+
+.range-controls__toggle {
+  display: none; }
+
+@media (min-width: 768px) {
+  .range-controls__toggle {
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    left: 400px; }
+  .range-controls__scale {
+    background-color: #dcdcdc;
+    height: 6px;
+    margin-top: 10px; }
+  .range-controls {
+    position: relative; }
+  .range-controls__bar {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    left: 405px;
+    z-index: 10;
+    top: 50px; } }

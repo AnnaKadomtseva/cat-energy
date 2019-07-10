@@ -97,4 +97,36 @@
     line-height: 20px;
     padding-left: 50px;
   }
+
+  .program-card__icon {
+    width: 200px;
+    height: 200px;
+    left: initial;
+    right: 60px;
+    top: 85px;
+  }
+
+  .program-card__picture--thin {
+    width: 140px;
+    height: 194px;
+    left: 25px;
+    top: -15px;
+  }
+
+  .program-card__picture--fat {
+    width: 268px;
+    height: 112px;
+    top: 35px;
+    left: -40px;
+  }
+
+  .program-card {
+    padding-top: 85px;
+    padding-bottom: 60px;
+  }
+
+  .program-card__catalog-link--next::after {
+    top: 11px;
+    right: -45px;
+  }
 }

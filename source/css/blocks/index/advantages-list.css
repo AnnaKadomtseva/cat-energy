@@ -22,7 +22,8 @@
   left: 0;
   background-repeat: no-repeat;
   background-color: #68b738;
-  background-position: center; }
+  background-position: center;
+  background-size: cover; }
 
 .advantages-list__item--useful::before {
   background-image: url(../img/raster/advantage-leaf@1x.png); }
@@ -55,13 +56,14 @@
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin: 0;
-    padding: 0; }
+    margin: auto;
+    padding: 0;
+    width: 708px; }
   .advantages-list__item {
     font-size: 16px;
     line-height: 24px;
     width: 250px;
-    margin-right: 120px;
+    margin-right: 100px;
     padding-top: 90px;
     padding-left: 0;
     margin-bottom: 135px;

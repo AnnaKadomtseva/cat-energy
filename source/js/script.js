@@ -12,7 +12,7 @@ function initMap() {
     map: myMap,
     icon: {
       url: "img/raster/map-pin.png",
-      scaledSize: new google.maps.Size(55, 53)
+      scaledSize: new google.maps.Size(62, 53)
     }
   });
 }

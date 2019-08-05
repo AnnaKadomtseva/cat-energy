@@ -56,6 +56,10 @@
 @media (min-width: 768px) {
   .example__wrapper {
     background-color: #fff; }
+  .example__controls {
+    background-color: #f2f2f2;
+    height: 460px;
+    position: relative; }
   .example__title {
     font-size: 60px; }
   .example__description {
@@ -69,13 +73,17 @@
     display: flex;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between; }
+    justify-content: space-between;
+    margin-bottom: 170px; }
   .example__expenses {
     text-align: right;
     font-size: 20px; }
   .example__sliders {
     width: 680px;
-    height: 517px; }
+    height: 517px;
+    position: absolute;
+    top: -150px;
+    left: 20%; }
   .example__slide {
     display: -webkit-box;
     display: -ms-flexbox;

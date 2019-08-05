@@ -65,6 +65,12 @@
     background-color: $white;
   }
 
+  .example__controls {
+    background-color: $grey;
+    height: 460px;
+    position: relative;
+  }
+
   .example__title {
     font-size: 60px;
   }
@@ -81,6 +87,7 @@
   .example__info {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 170px;
   }
 
   .example__expenses {
@@ -91,6 +98,9 @@
   .example__sliders {
     width: 680px;
     height: 517px;
+    position: absolute;
+    top: -150px;
+    left: 20%;
   }
 
   .example__slide {

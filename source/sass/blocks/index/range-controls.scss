@@ -44,6 +44,7 @@
     left: -11px;
     border: 10px solid #fff;
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.3);
+    padding: 0;
   }
 
   .range-controls__scale {
@@ -54,6 +55,7 @@
 
   .range-controls {
     position: relative;
+    padding-top: 400px;
   }
 
   .range-controls__bar {
@@ -63,7 +65,7 @@
     position: absolute;
     left: 50%;
     z-index: 10;
-    top: 50px;
+    top: 400px;
   }
 
   .range-controls__before,

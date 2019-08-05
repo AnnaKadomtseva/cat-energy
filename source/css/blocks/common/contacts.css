@@ -29,4 +29,5 @@
   .contacts__address {
     font-size: 16px;
     width: 190px;
-    padding-right: 35px; } }
+    padding-right: 35px;
+    text-align: right; } }

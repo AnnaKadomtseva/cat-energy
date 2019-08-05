@@ -32,6 +32,8 @@
 @media (min-width: 768px) {
   .page-header__button {
     width: 245px;
-    margin-left: 90px; }
+    margin-left: 90px;
+    position: absolute;
+    bottom: -150px; }
   .page-header__wrapper-up {
     display: -webkit-box; } }

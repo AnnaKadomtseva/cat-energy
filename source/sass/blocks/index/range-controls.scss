@@ -51,10 +51,10 @@
     background-color: #dcdcdc;
     height: 6px;
     margin-top: 10px;
+    position: relative;
   }
 
   .range-controls {
-    position: relative;
     padding-top: 400px;
   }
 
@@ -64,8 +64,8 @@
     border-radius: 50%;
     position: absolute;
     left: 50%;
-    z-index: 10;
-    top: 400px;
+    z-index: 1;
+    top: -10px;
   }
 
   .range-controls__before,

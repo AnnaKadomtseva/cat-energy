@@ -33,3 +33,24 @@
   position: absolute;
   bottom: -10px;
   left: 25px; }
+
+@media (min-width: 768px) {
+  .statistics {
+    width: 385px; }
+  .statistics__item {
+    position: relative;
+    border: 1px solid #cdcdcd;
+    padding: 20px 15px 25px;
+    border-radius: 3px;
+    width: 162px; }
+  .statistics__title {
+    font-size: 30px;
+    line-height: 37px; }
+  .statistics__description {
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    background-color: #fff;
+    width: 137px;
+    bottom: -7px;
+    left: 15px; } }

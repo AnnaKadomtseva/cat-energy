@@ -20,3 +20,19 @@
 .contacts--gray {
   background-color: $grey;
 }
+
+@media (min-width: $tablet) {
+  .contacts__invitation {
+    width: 160px;
+    padding-left: 35px;
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .contacts__address {
+    font-size: 16px;
+    width: 190px;
+    padding-right: 35px;
+    text-align: right;
+  }
+}

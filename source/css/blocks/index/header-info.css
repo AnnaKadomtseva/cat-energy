@@ -11,6 +11,9 @@
     position: absolute;
     top: 0;
     left: 0; }
+    @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+      .header-info:before {
+        background-image: url("../img/raster/index-background-mobile@2x.jpg"); } }
 
 .header-info__title {
   color: #fff;
@@ -23,13 +26,12 @@
   z-index: 1; }
 
 .header-info__tagline {
-  margin: 0;
+  margin: 0 0 25px 0;
   color: #fff;
   text-transform: uppercase;
   font-size: 14px;
   line-height: 14px;
   text-align: center;
-  margin-bottom: 25px;
   position: relative;
   z-index: 1; }
 
@@ -37,10 +39,26 @@
   display: block;
   margin: 0 auto;
   position: relative;
-  z-index: 1; }
+  z-index: 1;
+  width: 280px;
+  height: 270px; }
 
-.header-info__button {
-  margin-left: 20px;
-  margin-right: 20px;
-  position: relative;
-  z-index: 1; }
+@media (min-width: 768px) {
+  .header-info:before {
+    background-color: #fff;
+    background-image: none; }
+  .header-info__title {
+    color: #000;
+    font-size: 60px;
+    line-height: 60px;
+    padding: 60px 210px 40px 90px;
+    text-align: left; }
+  .header-info__tagline {
+    color: #000;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: left;
+    padding: 0 90px 45px 90px; }
+  .header-info__img {
+    width: 709px;
+    height: 609px; } }

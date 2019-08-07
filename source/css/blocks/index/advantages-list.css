@@ -21,16 +21,66 @@
   top: 0;
   left: 0;
   background-repeat: no-repeat;
-  background-color: #68b738; }
+  background-color: #68b738;
+  background-position: center;
+  background-size: cover; }
 
 .advantages-list__item--useful::before {
   background-image: url(../img/raster/advantage-leaf@1x.png); }
+  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    .advantages-list__item--useful::before {
+      background-image: url(../img/raster/advantage-leaf@2x.png); } }
 
 .advantages-list__item--drink::before {
   background-image: url(../img/raster/advantage-powder@1x.png); }
+  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    .advantages-list__item--drink::before {
+      background-image: url(../img/raster/advantage-powder@2x.png); } }
 
 .advantages-list__item--food::before {
   background-image: url(../img/raster/advantage-dining@1x.png); }
+  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    .advantages-list__item--food::before {
+      background-image: url(../img/raster/advantage-dining@2x.png); } }
 
 .advantages-list__item--time::before {
   background-image: url(../img/raster/advantage-clock@1x.png); }
+  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    .advantages-list__item--time::before {
+      background-image: url(../img/raster/advantage-clock@2x.png); } }
+
+@media (min-width: 768px) {
+  .advantages-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 0;
+    width: 708px; }
+  .advantages-list__item {
+    font-size: 16px;
+    line-height: 24px;
+    width: 250px;
+    margin-right: 100px;
+    padding-top: 90px;
+    padding-left: 0;
+    margin-bottom: 135px;
+    counter-increment: my-awesome-counter;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    z-index: 6; }
+  .advantages-list__item::before {
+    width: 80px;
+    height: 80px; }
+  .advantages-list__item::after {
+    content: counter(my-awesome-counter);
+    font-family: "Oswald", sans-serif;
+    font-size: 281px;
+    color: #f2f2f2;
+    position: absolute;
+    margin-left: 110px;
+    z-index: -1; } }

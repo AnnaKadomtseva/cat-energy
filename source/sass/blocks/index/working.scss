@@ -1,6 +1,4 @@
-.working {
-
-}
+@import "../../global/vars";
 
 .working__wrapper {
   margin: 0 20px;
@@ -12,6 +10,9 @@
   margin-bottom: 35px;
 }
 
-.working__list {
-
+@media (min-width: $tablet) {
+  .working__title {
+    font-size: 60px;
+    margin-bottom: 75px;
+  }
 }

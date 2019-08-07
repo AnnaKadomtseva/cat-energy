@@ -16,6 +16,10 @@
     position: absolute;
     top: 0;
     left: 0;
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/raster/gift-photo-mobile@2x.jpg");
+    }
   }
 
   &:after {

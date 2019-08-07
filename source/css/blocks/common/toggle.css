@@ -39,3 +39,7 @@
   background-color: #000;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg); }
+
+@media (min-width: 768px) {
+  .toggle {
+    display: none; } }

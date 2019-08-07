@@ -27,3 +27,15 @@
     left: -5px;
   }
 }
+
+@media (min-width: $tablet) {
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+  }
+
+  .footer-bottom__logo {
+    display: inline-block;
+  }
+}

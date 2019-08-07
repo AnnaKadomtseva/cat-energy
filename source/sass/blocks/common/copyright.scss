@@ -31,3 +31,9 @@
     opacity: 0.3;
   }
 }
+
+@media (min-width: $tablet) {
+  .copyright {
+    width: 162px;
+  }
+}

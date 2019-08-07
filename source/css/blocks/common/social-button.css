@@ -19,3 +19,7 @@
   .social-button__link:active {
     fill: #68b738;
     opacity: 0.3; }
+
+@media (min-width: 768px) {
+  .social-button__list {
+    width: 135px; } }

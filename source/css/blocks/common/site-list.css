@@ -18,3 +18,26 @@
   .site-list__link:active {
     opacity: 1;
     text-decoration: underline; }
+
+@media (min-width: 768px) {
+  .site-list {
+    width: 460px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  .site-list__link {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    border-bottom: none;
+    padding: 20px 0; }
+    .site-list__link:active {
+      opacity: 1;
+      text-decoration: none; }
+  .site-list__item--active {
+    border-bottom: 1px solid #68b738; } }

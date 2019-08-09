@@ -7,3 +7,12 @@
 .program-opportunity__item {
   margin-bottom: 20px;
 }
+
+@media (min-width: $desktop) {
+  .program-opportunity {
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 110px 80px;
+  }
+}

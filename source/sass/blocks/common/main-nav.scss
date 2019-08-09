@@ -14,3 +14,10 @@
     display: inline-block;
   }
 }
+
+@media (min-width: $desktop) {
+  .main-nav {
+    position: relative;
+    z-index: 1;
+  }
+}

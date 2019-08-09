@@ -63,3 +63,9 @@
     left: 15px;
   }
 }
+
+@media (min-width: $desktop) {
+  .statistics__description {
+    background-color: $grey;
+  }
+}

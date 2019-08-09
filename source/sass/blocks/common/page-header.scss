@@ -28,14 +28,30 @@
 }
 
 @media (min-width: $tablet) {
+  .page-header {
+    position: relative;
+  }
+
   .page-header__button {
     width: 245px;
     margin-left: 90px;
     position: absolute;
-    bottom: -150px;
+    top: 370px;
   }
 
   .page-header__wrapper-up {
     display: -webkit-box;
+  }
+}
+
+@media (min-width: $desktop) {
+  .page-header__wrapper-up {
+    padding: 50px 110px 90px 110px;
+    margin: 0;
+  }
+
+  .page-header__button {
+    margin-left: 190px;
+    top: 430px;
   }
 }

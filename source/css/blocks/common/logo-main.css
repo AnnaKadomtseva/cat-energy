@@ -20,3 +20,7 @@
     height: 59px; }
   .logo-title {
     display: none; } }
+
+@media (min-width: 1300px) {
+  .logo-main__image {
+    width: 202px; } }

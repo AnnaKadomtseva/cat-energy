@@ -35,3 +35,9 @@
     display: none;
   }
 }
+
+@media (min-width: $desktop) {
+  .logo-main__image {
+    width: 202px;
+  }
+}

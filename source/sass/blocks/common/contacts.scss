@@ -36,3 +36,22 @@
     text-align: right;
   }
 }
+
+@media (min-width: $desktop) {
+  .contacts {
+    width: 570px;
+    height: 200px;
+    position: absolute;
+    z-index: 1;
+    background-color: #fff;
+    align-items: center;
+    left: 60px;
+    top: 100px;
+  }
+
+  .contacts__invitation,
+  .contacts__address {
+    width: 245px;
+    text-align: left;
+  }
+}

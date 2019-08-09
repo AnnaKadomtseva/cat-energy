@@ -32,3 +32,8 @@
     padding-top: 70px; }
   .footer-bottom__logo {
     display: inline-block; } }
+
+@media (min-width: 1300px) {
+  .footer-bottom {
+    padding-left: 110px;
+    padding-right: 110px; } }

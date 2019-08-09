@@ -19,15 +19,21 @@
   margin-bottom: 25px;
 }
 
-.example__expenses {
+.example__expenses,
+.example__money {
   font-size: 14px;
   line-height: 20px;
   text-transform: uppercase;
   text-align: center;
 }
 
-.example__expenses br {
-  display: none;
+.example__expenses {
+  margin-right: 10px;
+}
+
+.example__amount {
+  display: flex;
+  justify-content: center;
 }
 
 .example__list {
@@ -69,6 +75,8 @@
     background-color: $grey;
     height: 460px;
     position: relative;
+    margin-right: 10px;
+    margin-left: 10px;
   }
 
   .example__title {
@@ -80,19 +88,17 @@
     line-height: 24px;
   }
 
-  .example__expenses br {
-    display: block;
-  }
-
   .example__info {
     display: flex;
     justify-content: space-between;
     margin-bottom: 170px;
   }
 
-  .example__expenses {
+  .example__expenses,
+  .example__money {
     text-align: right;
     font-size: 20px;
+    margin-right: 0;
   }
 
   .example__sliders {
@@ -108,18 +114,93 @@
     display: flex;
     flex-direction: column;
     width: 50%;
-  }
 
-  .example__slide--after {
-    align-items: flex-end;
+    &--after {
+      align-items: flex-end;
 
-    img {
-      z-index: 1;
+      img {
+        z-index: 1;
+      }
     }
   }
 
   .example__slide img {
     width: 680px;
     height: 517px;
+  }
+
+  .example__amount {
+    display: block;
+  }
+}
+
+@media (min-width: $desktop) {
+  .example__wrapper {
+    padding: 35px 110px 0;
+  }
+
+  .example__title {
+    margin-bottom: 80px;
+  }
+
+  .example__advantages {
+    padding: 75px 110px 65px;
+    display: flex;
+    justify-content: space-between;
+    background-color: $grey;
+    margin: 0 -110px;
+  }
+
+  .example__statistic {
+    width: 570px;
+    padding-right: 140px;
+  }
+
+  .example__picture {
+    width: 610px;
+  }
+
+  .example__info {
+    display: block;
+    margin-bottom: 0;
+  }
+
+  .example__description {
+    margin-bottom: 60px;
+  }
+
+  .example__list {
+    margin: 0 70px 50px 0;
+  }
+
+  .example__expenses {
+    text-align: left;
+  }
+
+  .example__amount {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 80px;
+  }
+
+  .example__sliders {
+    top: -250px;
+    width: 650px;
+  }
+
+  .example__controls {
+    height: 350px;
+  }
+
+  .example__slide {
+    &--before {
+      width: 380px;
+      left: -40px;
+      padding-right: 40px;
+    }
+  }
+
+  .example__slide img {
+    width: 690px;
   }
 }

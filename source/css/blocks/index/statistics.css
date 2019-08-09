@@ -54,3 +54,7 @@
     width: 137px;
     bottom: -7px;
     left: 15px; } }
+
+@media (min-width: 1300px) {
+  .statistics__description {
+    background-color: #f2f2f2; } }

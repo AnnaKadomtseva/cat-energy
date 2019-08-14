@@ -51,10 +51,56 @@
     left: 50%;
     background-image: url(../img/vector/plus.svg);
     background-repeat: no-repeat;
+    opacity: 0.2;
   }
 }
 
 .card__title--gray {
   margin: 0;
   width: 100%;
+}
+
+.card__header {
+  width: 140px;
+  height: 144px;
+}
+
+@media (min-width: $tablet) {
+  .card__title {
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 120px;
+  }
+
+  .card__content {
+    width: 100%;
+  }
+
+  .card {
+    width: 325px;
+    height: 430px;
+    background-color: $grey;
+    padding: 0 30px 45px;
+    position: relative;
+    margin-bottom: 140px;
+  }
+
+  .card__container {
+    padding: 0;
+  }
+
+  .card__header {
+    width: 161px;
+    height: 172px;
+    position: absolute;
+    top: -50px;
+    left: 100px;
+  }
+
+  .card__footer {
+    margin: auto;
+  }
 }

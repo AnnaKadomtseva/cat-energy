@@ -6,11 +6,22 @@
   padding: 0 20px;
 }
 
-.page-catalog__wrapper {
-}
-
 .page-catalog__list {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+@media (min-width: $tablet) {
+  .page-catalog__title {
+    font-size: 60px;
+    padding: 60px 30px 165px;
+  }
+
+  .catalog-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 30px;
+  }
 }

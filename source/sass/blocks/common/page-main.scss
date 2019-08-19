@@ -1,0 +1,7 @@
+@import "../../global/vars";
+
+@media (min-width: $desktop) {
+  .page-main {
+    max-width: 1300px;
+  }
+}

@@ -100,11 +100,15 @@
   }
 
   .header-info__title {
-    padding: 0 720px 45px 190px;
+    padding: 0 190px 45px 190px;
+    width: 430px;
+    box-sizing: content-box;
   }
 
   .header-info__tagline {
-    padding: 0 720px 50px 190px;
+    padding: 0 190px 50px 190px;
+    width: 300px;
+    box-sizing: content-box;
   }
 
   .header-info__img {

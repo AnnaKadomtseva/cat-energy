@@ -10,4 +10,5 @@
 
 @media (min-width: 1300px) {
   .page-footer {
-    position: relative; } }
+    position: relative;
+    max-width: 1300px; } }

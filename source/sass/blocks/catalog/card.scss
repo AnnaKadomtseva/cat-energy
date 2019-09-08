@@ -60,11 +60,6 @@
   width: 100%;
 }
 
-.card__header {
-  width: 140px;
-  height: 144px;
-}
-
 @media (min-width: $tablet) {
   .card__title {
     font-size: 20px;
@@ -94,11 +89,55 @@
 
   .card__header {
     position: absolute;
-    top: -50px;
-    left: 100px;
+    top: unset;
+    bottom: 320px;
+    left: unset;
+    right: 10px;
   }
 
   .card__footer {
     margin: auto;
+  }
+
+  .card__minipic {
+    width: 100%;
+    height: 173px;
+  }
+
+  .card__maxipic {
+    width: 100%;
+    height: 208px;
+  }
+
+  .card--gray {
+    background-color: $white;
+    border: 1px solid $grey;
+
+    &::before {
+      width: 60px;
+      height: 60px;
+      top: 50px;
+      left: 130px;
+    }
+  }
+
+  .card__specification {
+    width: 155px;
+    margin: 30px auto;
+  }
+}
+
+@media (min-width: $desktop) {
+  .card {
+    width: 245px;
+  }
+
+  .btn--success,
+  .btn--default {
+    min-width: 170px;
+  }
+
+  .card--gray:before {
+    left: 90px;
   }
 }

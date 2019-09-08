@@ -16,6 +16,10 @@
   width: 70px;
 }
 
+.table tr {
+  border-bottom: 1px solid #cdcdcd;
+}
+
 @media (min-width: $tablet) {
   .table {
     font-size: 16px;
@@ -23,7 +27,22 @@
     margin-bottom: 30px;
   }
 
+  .table--horizontal {
+    display: flex;
+  }
+
+  .table tbody {
+    width: 500px;
+    margin-top: 15px;
+  }
+
   .table tr {
-    border-bottom: 1px solid #cdcdcd;
+    border-bottom: none;
+  }
+}
+
+@media (min-width: $desktop) {
+  .table tbody {
+    width: 285px;
   }
 }

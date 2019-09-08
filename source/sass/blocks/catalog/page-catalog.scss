@@ -25,3 +25,19 @@
     margin: 0 30px;
   }
 }
+
+@media (min-width: $desktop) {
+  .page-catalog__title {
+    padding-left: 110px;
+  }
+
+  .catalog-list {
+    margin: 0 110px;
+  }
+
+  .page-catalog__bonus {
+    display: flex;
+    margin-bottom: 45px;
+    padding: 0 110px;
+  }
+}

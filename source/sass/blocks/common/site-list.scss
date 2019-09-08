@@ -63,4 +63,12 @@
   .site-list__item--active {
     border-bottom: 1px solid $white;
   }
+
+  .site-list__link--catalog {
+    color: $black;
+  }
+
+  .site-list__item--green {
+    border-bottom: 1px solid $darkgreen;
+  }
 }

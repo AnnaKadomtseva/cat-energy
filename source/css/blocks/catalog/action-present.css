@@ -31,9 +31,50 @@
   font-family: "Arial", sans-serif;
   line-height: 20px;
   color: #fff;
-  position: relative;
+  position: absolute;
   z-index: 1;
-  margin: auto;
   text-align: center;
-  padding-top: 180px;
-  width: 165px; }
+  width: 165px;
+  left: 150px;
+  bottom: 0; }
+
+@media (min-width: 768px) {
+  .action-present {
+    height: 200px;
+    width: 710px;
+    margin: auto;
+    margin-bottom: 60px; }
+    .action-present:before {
+      background-image: url("../img/raster/gift-photo-tablet@1x.jpg");
+      height: 200px; } }
+    @media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 768px) and (min-resolution: 144dpi), (min-width: 768px) and (min-resolution: 1.5dppx) {
+      .action-present:before {
+        background-image: url("../img/raster/gift-photo-tablet@2x.jpg"); } }
+
+@media (min-width: 768px) {
+    .action-present:after {
+      top: 65px;
+      left: 120px; }
+  .action-present__description {
+    text-align: left;
+    right: 100px;
+    left: initial;
+    bottom: 50px; } }
+
+@media (min-width: 1300px) {
+  .action-present {
+    margin-bottom: auto; }
+    .action-present:before {
+      background-image: url("../img/raster/gift-photo-desktop@1x.jpg");
+      height: 290px; } }
+    @media (min-width: 1300px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 1300px) and (min-resolution: 144dpi), (min-width: 1300px) and (min-resolution: 1.5dppx) {
+      .action-present:before {
+        background-image: url("../img/raster/gift-photo-desktop@2x.jpg"); } }
+
+@media (min-width: 1300px) {
+    .action-present:after {
+      top: 55px;
+      left: 170px; }
+  .action-present__description {
+    text-align: center;
+    bottom: -70px; } }

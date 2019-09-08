@@ -10,12 +10,11 @@
 
 .page-footer__main {
   padding: 35px 20px;
-  background-color: $grey;
 }
 
 @media (min-width: $desktop) {
   .page-footer {
     position: relative;
-    max-width: 1300px;
+    background-color: $grey;
   }
 }

@@ -47,4 +47,8 @@
     font-size: 20px;
     color: #fff; }
   .site-list__item--active {
-    border-bottom: 1px solid #fff; } }
+    border-bottom: 1px solid #fff; }
+  .site-list__link--catalog {
+    color: #000; }
+  .site-list__item--green {
+    border-bottom: 1px solid #5eaa2f; } }

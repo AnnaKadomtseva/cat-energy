@@ -130,8 +130,7 @@
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    background-color: #f2f2f2;
-    margin: 0 -110px; }
+    background-color: #f2f2f2; }
   .example__statistic {
     width: 570px;
     padding-right: 140px; }

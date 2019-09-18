@@ -9,5 +9,7 @@
 
 @media (min-width: 1300px) {
   .page-footer {
+    background-color: #f2f2f2; }
+  .page-footer__cont {
     position: relative;
-    background-color: #f2f2f2; } }
+    padding-left: 110px; } }

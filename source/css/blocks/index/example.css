@@ -119,9 +119,10 @@
 
 @media (min-width: 1300px) {
   .example__wrapper {
-    padding: 35px 110px 0; }
+    padding: 0; }
   .example__title {
-    margin-bottom: 80px; }
+    margin-bottom: 80px;
+    padding-left: 110px; }
   .example__advantages {
     padding: 75px 110px 65px;
     display: -webkit-box;
@@ -129,7 +130,8 @@
     display: flex;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between;
+    justify-content: space-between; }
+  .example__bg {
     background-color: #f2f2f2; }
   .example__statistic {
     width: 570px;

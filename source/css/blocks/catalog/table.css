@@ -10,3 +10,25 @@
 .table__field {
   text-align: right;
   width: 70px; }
+
+.table tr {
+  border-bottom: 1px solid #cdcdcd; }
+
+@media (min-width: 768px) {
+  .table {
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 30px; }
+  .table--horizontal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .table tbody {
+    width: 500px;
+    margin-top: 15px; }
+  .table tr {
+    border-bottom: none; } }
+
+@media (min-width: 1300px) {
+  .table tbody {
+    width: 285px; } }

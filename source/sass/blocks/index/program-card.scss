@@ -85,7 +85,6 @@
   }
 
   .program-card__description {
-    margin: 40px 0;
     font-size: 16px;
     line-height: 24px;
     width: 395px;
@@ -128,5 +127,47 @@
   .program-card__catalog-link--next::after {
     top: 11px;
     right: -45px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .program-card {
+    width: 570px;
+    height: 370px;
+    margin-right: 80px;
+  }
+
+  .program-card:last-child {
+    margin-right: 0;
+  }
+
+  .program-card__picture--thin {
+    width: 70px;
+    height: 97px;
+    left: 8px;
+    top: -7px;
+  }
+
+  .program-card__picture--fat {
+    width: 134px;
+    height: 56px;
+    left: -16px;
+    top: 25px;
+  }
+
+  .program-card__icon {
+    width: 100px;
+    height: 100px;
+    right: initial;
+    top: 50px;
+    left: 45px;
+  }
+
+  .program-card__title {
+    padding-left: 180px;
+  }
+
+  .program-card__description {
+    width: 470px;
   }
 }

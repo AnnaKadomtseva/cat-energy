@@ -33,9 +33,17 @@
     display: flex;
     justify-content: space-between;
     padding-top: 70px;
+    background-color: $grey;
   }
 
   .footer-bottom__logo {
     display: inline-block;
+  }
+}
+
+@media (min-width: $desktop) {
+  .footer-bottom {
+    padding-left: 110px;
+    padding-right: 110px;
   }
 }

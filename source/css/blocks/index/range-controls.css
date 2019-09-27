@@ -61,3 +61,7 @@
   .range-controls__before,
   .range-controls__after {
     border-bottom: 1px dotted #bebebe; } }
+
+@media (min-width: 768px) and (min-width: 1300px) {
+  .range-controls {
+    padding-top: 310px; } }

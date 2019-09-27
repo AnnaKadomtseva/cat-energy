@@ -9,3 +9,8 @@
 @media (min-width: 768px) {
   .main-nav {
     display: inline-block; } }
+
+@media (min-width: 1300px) {
+  .main-nav {
+    position: relative;
+    z-index: 1; } }

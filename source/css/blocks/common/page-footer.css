@@ -5,5 +5,11 @@
   width: 100%; }
 
 .page-footer__main {
-  padding: 35px 20px;
-  background-color: #f2f2f2; }
+  padding: 35px 20px; }
+
+@media (min-width: 1300px) {
+  .page-footer {
+    background-color: #f2f2f2; }
+  .page-footer__cont {
+    position: relative;
+    padding-left: 110px; } }

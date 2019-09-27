@@ -72,4 +72,10 @@
   .range-controls__after {
     border-bottom: 1px dotted #bebebe;
   }
+
+  @media (min-width: $desktop) {
+    .range-controls {
+      padding-top: 310px;
+    }
+  }
 }

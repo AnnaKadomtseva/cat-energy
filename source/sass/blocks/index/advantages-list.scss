@@ -99,3 +99,14 @@
     z-index: -1;
   }
 }
+
+@media (min-width: $desktop) {
+  .advantages-list {
+    width: 1120px;
+    justify-content: space-between;
+  }
+
+  .advantages-list__item {
+    margin-right: 0;
+  }
+}

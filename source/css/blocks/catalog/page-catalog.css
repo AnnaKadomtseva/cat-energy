@@ -7,3 +7,30 @@
   list-style: none;
   padding: 0;
   margin: 0; }
+
+@media (min-width: 768px) {
+  .page-catalog__title {
+    font-size: 60px;
+    padding: 60px 30px 165px; }
+  .catalog-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 0 30px; } }
+
+@media (min-width: 1300px) {
+  .page-catalog__title {
+    padding-left: 110px; }
+  .catalog-list {
+    margin: 0 110px; }
+  .page-catalog__bonus {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 45px;
+    padding: 0 110px; } }

@@ -84,3 +84,12 @@
     position: absolute;
     margin-left: 110px;
     z-index: -1; } }
+
+@media (min-width: 1300px) {
+  .advantages-list {
+    width: 1120px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  .advantages-list__item {
+    margin-right: 0; } }

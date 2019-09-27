@@ -8,10 +8,11 @@
   </head>
   <body>
     <header class="page-header">
-      <div class="page-header__wrapper-up">
+      <div class="page-header__wrapper-up container">
         <div class="page-header__logo logo-main">
           <a class="logo-main__link" href="index.html">
             <picture>
+              <source srcset="img/vector/logo-desktop.svg" media="(min-width: 1300px)">
               <source srcset="img/vector/logo-tablet.svg" media="(min-width: 768px)">
               <img
               class="logo-main__image"
@@ -55,28 +56,33 @@
         </nav>
       </div>
       <div class="page-header__wrapper-end header-info">
-        <h1 class="header-info__title">Функциональное питание для котов</h1>
-        <p class="header-info__tagline">Занялся собой? Займись котом!</p>
-        <picture>
-          <source srcset="img/raster/index-can-tablet@1x.jpg" media="(min-width: 768px)">  
-          <img
+        <div class="container">
+          <h1 class="header-info__title">Функциональное питание для котов</h1>
+          <p class="header-info__tagline">Занялся собой? Займись котом!</p>
+          <picture>
+            <source srcset="img/raster/index-can-desktop@1x.png 1x, img/raster/index-can-desktop@2x.png 2x" media="(min-width: 1300px)">
+            <source srcset="img/raster/index-can-tablet@1x.jpg 1x, img/raster/index-can-tablet@2x.jpg 2x" media="(min-width: 768px)">  
+            <img
           class="header-info__img"
-          src="img/raster/index-can-mobile@1x.png" srcset="img/raster/index-can-mobile@2x.png"
+          src="img/raster/index-can-mobile@1x.png" srcset="img/raster/index-can-mobile@2x.png 2x"
           width="280"
           height="270"
           alt="Упаковка основного продукта"
-        />
-        </picture>
-      </div>
-      <div class="page-header__button change-program">
-        <a class="change-program__button btn" href="form.html"
-          >Подобрать программу</a
-        >
+          />
+          </picture>
+        </div>
+        <div class="container">
+          <div class="page-header__button change-program">
+            <a class="change-program__button btn" href="form.html"
+            >Подобрать программу</a
+            >
+          </div>
+        </div>
       </div>
     </header>
     <main class="page-main">
       <h2 class="visually-hidden">Возможности программ Cat Energy</h2>
-      <div class="program-opportunity">
+      <div class="program-opportunity container">
         <section class="program-opportunity__item program-card">
           <span class="program-card__icon">
             <svg
@@ -149,7 +155,7 @@
           </a>
         </section>
       </div>
-      <section class="working">
+      <section class="working container">
         <div class="working__wrapper">
           <h3 class="working__title">Как это работает</h3>
           <ul class="working__list advantages-list">
@@ -174,79 +180,93 @@
       </section>
       <section class="example">
         <div class="example__wrapper">
-          <h3 class="example__title">Живой пример</h3>
-          <p class="example__description">
-            Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на
-            Cat Energy Slim. Отличный результат без изнуряющих тренировок! При
-            этом он не менял своих привычек и по-прежнему спит по 16 часов в
-            день.
-          </p>
-          <div class="example__info">
-            <div class="example__list statistics">
-              <div class="statistics__item">
-                <p class="statistics__title">5 кг<span class="statistics__description">снижение веса</span>
-                </p>
-              </div>
-              <div class="statistics__item">
-                <p class="statistics__title">60 дней<span class="statistics__description">затрачено времени</span>
-                </p>
-              </div>
-            </div>
-            <p class="example__expenses">Затраты на питание: <br>15 000 руб.</p>
-          </div>
-          <div class="example__controls">
-            <div class="example__sliders">
-              <div class="example__slide example__slide--before">
-                <picture>
-                  <source srcset="img/raster/before-tablet@1x.png 1x, img/raster/before-tablet@2x.png 2x" media="(min-width: 768px)">
-                  <img
-              src="img/raster/before-mobile@1x.png" srcset="img/raster/before-mobile@2x.png 2x"
-              width="320"
-              height="240"
-              alt="Кот Борис До"
-                  />
-                </picture>
-              </div>
-              <div class="example__slide example__slide--after">
-                <picture>
-                  <source srcset="img/raster/after-tablet@1x.png 1x, img/raster/after-tablet@2x.png 2x" media="(min-width: 768px)">
-                  <img
-              src="img/raster/after-mobile@1x.png" srcset="img/raster/after-mobile@2x.png 2x"
-              width="320"
-              height="240"
-              alt="Кот Борис После"
-                  />
-                </picture>
-              </div>
-            </div>
-              <div class="example__filter range-controls">
-                <span class="range-controls__before">Было</span>
-                <div class="range-controls__scale">
-                  <div class="range-controls__bar">
-                    <button class="range-controls__toggle" type="button"></button>
+          <h3 class="example__title container">Живой пример</h3>
+          <div class="example__bg">
+          <div class="example__advantages container">
+            <div class="example__statistic">
+              <p class="example__description">
+              Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на
+              Cat Energy Slim. Отличный результат без изнуряющих тренировок! При
+              этом он не менял своих привычек и по-прежнему спит по 16 часов в
+              день.
+              </p>
+              <div class="example__info">
+                <div class="example__list statistics">
+                  <div class="statistics__item">
+                    <p class="statistics__title">5 кг<span class="statistics__description">снижение веса</span>
+                    </p>
+                  </div>
+                  <div class="statistics__item">
+                    <p class="statistics__title">60 дней<span class="statistics__description">затрачено времени</span>
+                    </p>
                   </div>
                 </div>
-                <span class="range-controls__after">Стало</span>
+                <div class="example__amount">
+                  <p class="example__expenses">Затраты на питание:</p>
+                  <p class="example__money">15 000 руб.</p>
+                </div>
               </div>
             </div>
+            <div class="example__picture">
+              <div class="example__controls">
+                <div class="example__sliders">
+                  <div class="example__slide example__slide--before">
+                    <picture>
+                      <source srcset="img/raster/before-desktop@1x.png 1x, img/raster/before-desktop@2x.png 2x" media="(min-width: 1300px)">
+                      <source srcset="img/raster/before-tablet@1x.png 1x, img/raster/before-tablet@2x.png 2x" media="(min-width: 768px)">
+                        <img
+                        src="img/raster/before-mobile@1x.png" srcset="img/raster/before-mobile@2x.png 2x"
+                        width="320"
+                        height="240"
+                        alt="Кот Борис До"
+                        />
+                    </picture>
+                  </div>
+                  <div class="example__slide example__slide--after">
+                    <picture>
+                        <source srcset="img/raster/after-desktop@1x.png 1x, img/raster/after-desktop@2x.png 2x" media="(min-width: 1300px)">
+                        <source srcset="img/raster/after-tablet@1x.png 1x, img/raster/after-tablet@2x.png 2x" media="(min-width: 768px)">
+                        <img
+                        src="img/raster/after-mobile@1x.png" srcset="img/raster/after-mobile@2x.png 2x"
+                        width="320"
+                        height="240"
+                        alt="Кот Борис После"
+                        />
+                    </picture>
+                  </div>
+                </div>
+                <div class="example__filter range-controls">
+                  <span class="range-controls__before">Было</span>
+                  <div class="range-controls__scale">
+                    <div class="range-controls__bar">
+                      <button class="range-controls__toggle" type="button"></button>
+                    </div>
+                  </div>
+                  <span class="range-controls__after">Стало</span>
+                </div>
+              </div>
+            </div>
+          </div>
           </div>
         </div>
       </section>
     </main>
     <footer class="page-footer">
-      <div class="page-footer__contacts contacts">
-        <span class="contacts__invitation"
+      <div class="page-footer__cont container">
+        <div class="page-footer__contacts contacts">
+          <span class="contacts__invitation"
           >Приглашаем к сотрудничеству дилеров!</span
-        >
-        <p class="contacts__address">
-          ул. Большая Конюшенная, д. 19/8 Санкт-Петербург
-        </p>
+          >
+          <p class="contacts__address">
+          ул. Большая Конюшенная, д. 19/8 <br>Санкт-Петербург
+          </p>
+        </div>
       </div>
       <div class="page-footer__map map" id="map">
         <a class="map__link" href="map.html">
         </a>
       </div>
-      <div class="page-footer__main footer-bottom">
+      <div class="page-footer__main footer-bottom container">
         <div class="footer-bottom__logo logo">
           <a class="logo__link"
             ><img
@@ -366,8 +386,9 @@
             >
               <path
                 d="M 13.62 0.017 L 13.472 0 L 0 1.412 v 24.661 l 13.472 8.017 l 13.43 -7.99 l 0.042 -0.026 V 1.412 L 13.62 0.017 Z M 25.019 12.127 L 13.495 5.334 l -0.001 -0.104 L 13.407 5.28 l -0.088 -0.056 v 0.109 L 1.925 12.118 V 3.147 l 11.547 -1.212 l 11.547 1.212 V 12.127 Z M 13.405 6.787 L 24.923 13.5 l -4.479 2.64 l -7.093 -4.221 l -0.013 1.415 l 5.904 3.513 l -0.86 0.507 l -5.031 -2.992 l -0.013 1.415 l 3.827 2.275 l -0.782 0.523 l -3.032 -1.787 l -0.013 1.413 l 1.852 1.091 l -1.8 1.081 L 2.034 13.622 L 13.405 6.787 Z M 1.925 15.127 l 11.411 6.791 l 0.015 1.044 l -7.941 -4.728 L 5.395 19.65 l 7.979 4.796 l 0.017 1.076 l -7.972 -4.741 l -0.013 1.415 l 8.021 4.821 l 0.045 0.026 l 8.143 -4.872 v -1.268 l -0.011 -0.148 v -3.761 l 3.415 -2.036 v 10.02 L 13.472 31.85 L 1.925 24.979 V 15.127 Z"
-              /></svg
-          ></a>
+              />
+            </svg>
+          </a>
         </div>
       </div>
     </footer>

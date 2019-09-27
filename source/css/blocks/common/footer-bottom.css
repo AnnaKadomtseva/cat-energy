@@ -29,6 +29,12 @@
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding-top: 70px; }
+    padding-top: 70px;
+    background-color: #f2f2f2; }
   .footer-bottom__logo {
     display: inline-block; } }
+
+@media (min-width: 1300px) {
+  .footer-bottom {
+    padding-left: 110px;
+    padding-right: 110px; } }

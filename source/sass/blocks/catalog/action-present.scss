@@ -39,10 +39,65 @@
   font-family: $arial;
   line-height: 20px;
   color: $white;
-  position: relative;
+  position: absolute;
   z-index: 1;
-  margin: auto;
   text-align: center;
-  padding-top: 180px;
   width: 165px;
+  left: 150px;
+  bottom: 0;
+}
+
+@media (min-width: $tablet) {
+  .action-present {
+    height: 200px;
+    width: 710px;
+    margin: auto;
+    margin-bottom: 60px;
+
+    &:before {
+      background-image: url("../img/raster/gift-photo-tablet@1x.jpg");
+      height: 200px;
+
+      @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+        background-image: url("../img/raster/gift-photo-tablet@2x.jpg");
+      }
+    }
+
+    &:after {
+      top: 65px;
+      left: 120px;
+    }
+  }
+
+  .action-present__description {
+    text-align: left;
+    right: 100px;
+    left: initial;
+    bottom: 50px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .action-present {
+    margin-bottom: auto;
+
+    &:before {
+      background-image: url("../img/raster/gift-photo-desktop@1x.jpg");
+      height: 290px;
+
+      @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+        background-image: url("../img/raster/gift-photo-desktop@2x.jpg");
+      }
+    }
+
+    &:after {
+      top: 55px;
+      left: 170px;
+    }
+  }
+
+  .action-present__description {
+    text-align: center;
+    bottom: -70px;
+  }
 }
